@@ -17,7 +17,7 @@ The ontology is written in <a href="https://www.w3.org/TR/owl2-overview/">OWL 2<
 | mmd-ereasoner | A limited version suitable for use with an OWL 2 reasoner. Aibel uses <a href="http://www.hermit-reasoner.com/">HermiT</a>. Classified with HermiT in ~33 minutes. |
 | mmd-reasoner | Even more stripped-down version. Classified with HermiT in ~13 minutes. |
 
-# Feedback Welcome!
+# Keep Us Informed!
 Aibel publishes the ontology with the primary intent of providing researchers and software developers with free access to a large-scale real industrial ontology and will therefore appreciate to be given access to or be made aware of any developments or new insights that result from the use of the ontology.
 
 Questions or comments may be posted as issues to this repository.
