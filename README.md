@@ -9,13 +9,14 @@ Aibel's Material Master Data (MMD) ontology defines the vocabulary Aibel uses fo
 # License and Versions
 This repository contains the MMD ontology published under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. The ontology has been obscured to protect sensitive information, which is largely done by re-minting IRIs and literals, while still preserving the logical content of the ontology.
 
-The ontology is written in <a href="https://www.w3.org/TR/owl2-overview/">OWL 2</a>, and it is provided in three different versions, all serialized in <a href="https://www.w3.org/TR/turtle/">Turtle syntax</a> and gziped.
+The ontology is written in <a href="https://www.w3.org/TR/owl2-overview/">OWL 2</a>, and it is provided in three different versions, all in serialized in <a href="https://www.w3.org/TR/turtle/">Turtle syntax</a>.
 
 | Version | Description |
 |---------|-------------|
 | mmd-all | All of MMD. *Not* suitable for use with OWL 2 reasoners; use <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> instead. |
-| mmd-ereasoner | A limited version suitable for use with an OWL 2 reasoner. Aibel uses <a href="http://www.hermit-reasoner.com/">HermiT</a>. Classified with HermiT in ~33 minutes. |
-| mmd-reasoner | Even more stripped-down version. Classified with HermiT in ~13 minutes. |
+| mmd-prod | All of MMD, minus deprecated items. *Not* suitable for use with OWL 2 reasoners; use <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> instead. |
+| mmd-ereasoner | A limited version suitable for use with an OWL 2 reasoner. Aibel uses <a href="http://www.hermit-reasoner.com/">HermiT</a>. Classified with HermiT in ~Y minutes. |
+| mmd-reasoner | Even more stripped-down version. Classified with HermiT in ~X minutes. |
 
 # Keep Us Informed!
 Aibel publishes the ontology with the primary intent of providing researchers and software developers with free access to a large-scale real industrial ontology and will therefore appreciate to be given access to or be made aware of any developments or new insights that result from the use of the ontology.
@@ -23,6 +24,9 @@ Aibel publishes the ontology with the primary intent of providing researchers an
 Questions or comments may be posted as issues to this repository.
 
 # Ontology Metrics
+
+Warning: The numbers in the table below are outdated -- not updated for the December 2021 version of MMD!
+
 |                                     | mmd-reasoner | mmd-ereasoner | mmd-all |
 |-------------------------------------|-------------:|--------------:|--------:|
 | **Metrics**                         |              |               |         |
